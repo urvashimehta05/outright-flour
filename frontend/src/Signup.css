@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Signup-form {
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+margin-top: 2rem;
+justify-content: flex-start;
+}
+.input {
+    width: 15vw;
+    padding: 10px;
+    border: 1px #ddd solid;  
+}
+input:focus {
+  outline: none;
+  border: 2px solid cornflowerblue; 
+  box-shadow: 0 0 4px cornflowerblue;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
